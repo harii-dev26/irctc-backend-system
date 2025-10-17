@@ -38,8 +38,9 @@ Available trains:
   T1001 | Coastal Express | Chennai -> Bengaluru | 2025-10-18 | seats: 120 | fare: 450.00
 ...
 
+![Console Output](screenshots/irctc-demo.png)
 
-Project Structure
+##  Project Structure
 
 irctc-backend-system/
  ├── pom.xml
@@ -55,7 +56,7 @@ irctc-backend-system/
                          └── util/
 
 
-Tech Stack 
+##  Tech Stack 
 
 
 | Layer         | Technology                              |
@@ -66,9 +67,14 @@ Tech Stack
 | Paradigm      | Modular, Object-Oriented                |
 
 
-Author
+## Future Enhancements
+
+- Integrate JDBC or MySQL for persistence
+- Add admin management for train schedule
+- Support date validation and seat limits
 
 
+## Author 
 Hariish Srinivasan
 Built as part of recruiter-ready Core Java projects for SDE-1 preparation.
 Demonstrates clean coding practices, modularity, and real-world console application design.
