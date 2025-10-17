@@ -3,7 +3,6 @@
 A **Core Java backend simulation** of the IRCTC train reservation system.  
 Built to demonstrate clean object-oriented design, modular structure, and Java Collections usage.  
 
-
 ---
 
 ## Overview
@@ -54,53 +53,75 @@ irctc-backend-system/
 └── Main.java
 
 
-## Example Console Session:
+
+---
+
+## Example Console Session
 
 === IRCTC Backend System (Console Demo) ===
-1) Login  2) Register  3) Exit
-> 1
+
+Login 2) Register 3) Exit
+
+1
 username: hari
 password: password123
 Welcome, Hariish S (hari)
 
 --- MENU (user: hari) ---
-1) List all trains
-2) Search trains by source,destination,date(YYYY-MM-DD)
-3) Book train
-4) View my bookings
-5) Cancel booking (by PNR)
-6) Logout
-7) Exit
-> 1
-Available trains:
-  T1001 | Coastal Express | Chennai -> Bengaluru | 2025-10-18 | seats: 120 | fare: 450.00
 
+List all trains
+
+Search trains by source,destination,date(YYYY-MM-DD)
+
+Book train
+
+View my bookings
+
+Cancel booking (by PNR)
+
+Logout
+
+Exit
+
+1
+Available trains:
+T1001 | Coastal Express | Chennai -> Bengaluru | 2025-10-18 | seats: 120 | fare: 450.00
+
+
+
+
+---
+
+## Console Demo
+
+![IRCTC Console Demo](demo-output.png)
+
+---
 
 ## Tech Stack
 
-| Layer          | Technology                                          |
+| Layer | Technology |
 | :------------- | :-------------------------------------------------- |
-| Language       | Java 11                                             |
-| Build Tool     | Maven                                               |
-| Paradigm       | Object-Oriented Programming                         |
+| Language | Java 11 |
+| Build Tool | Maven |
+| Paradigm | Object-Oriented Programming |
 | Core Libraries | Java Collections Framework (`ArrayList`, `HashMap`) |
-| Architecture   | Modular (Model–Service–Util)                        |
-| Execution      | Console-based Application                           |
+| Architecture | Modular (Model–Service–Util) |
+| Execution | Console-based Application |
 
+---
 
 ## Future Enhancements
 
-1) Integrate persistent storage using MySQL or JSON files
+- Integrate JDBC or MySQL for persistence  
+- Add admin management for train schedule  
+- Support date validation and seat limits  
+- Extend to REST API using Spring Boot (next version)
 
-2) Add an admin dashboard for train schedule management
+---
 
-3) Implement input validation and date/time parsing
+## Author  
 
-4) Extend to REST API using Spring Boot (next version)
-
-
-Author
-
-Hariish Srinivasan
-Built as part of a series of recruiter-ready Core Java projects for SDE-1 preparation.
+**Hariish Srinivasan**  
+Built as part of a series of recruiter-ready Core Java projects for SDE-1 preparation.  
 Demonstrates modular design, data handling, and console-based backend simulation.
