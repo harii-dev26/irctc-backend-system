@@ -39,22 +39,38 @@ Available trains:
 ...
 
 
+Project Structure
+
 irctc-backend-system/
  ├── pom.xml
  ├── README.md
- └── src/main/java/com/hariish/irctc/...
+ └── src/
+     └── main/
+         └── java/
+             └── com/
+                 └── hariish/
+                     └── irctc/
+                         ├── model/
+                         ├── service/
+                         └── util/
 
 
+Tech Stack 
 
-Tech stack
 
-Java 11
-
-Maven (exec-maven-plugin)
-
-Core Java Collections, OOP, Console IO
+| Layer         | Technology                              |
+| :------------ | :-------------------------------------- |
+| Language      | Java 11                                 |
+| Build Tool    | Maven (exec-maven-plugin)               |
+| Core Concepts | OOP, Collections Framework, Console I/O |
+| Paradigm      | Modular, Object-Oriented                |
 
 
 Author
 
-Hariish Srinivasan — built as part of recruiter-ready Java mini-projects for SDE-1.
+
+Hariish Srinivasan
+Built as part of recruiter-ready Core Java projects for SDE-1 preparation.
+Demonstrates clean coding practices, modularity, and real-world console application design.
+
+
